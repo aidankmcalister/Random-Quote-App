@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Young+Serif&display=swap");
+
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #2d1013, #3c1518);
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  background: linear-gradient(to bottom, #540d0e, #69140e);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  max-width: 90vw;
+  min-width: 50vw;
+}
+
+h1 {
+  color: #a44200;
+  font-size: 36px;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+#quote {
+  font-size: 24px;
+  color: #d58936;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+#generate {
+  background-color: #a44200;
+  color: #d58936;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#generate:hover {
+  background-color: #d58936;
+  color: #3c1518;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
