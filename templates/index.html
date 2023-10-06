@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Inspiration Quotes</title>
+    <link rel="stylesheet" href="./static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Inspiration Quotes</h1>
+      <div class="quote-box">
+        <p id="quote">{{ quote }}</p>
+        <button id="generate" onclick="reloadPage()">Generate Quote</button>
+      </div>
+    </div>
+    <script>
+      function reloadPage() {
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
